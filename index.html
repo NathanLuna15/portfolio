@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nathan Proença — Desenvolvedor Full Stack</title>
+  <script src="./app.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========================
+       BARRA DE NAVEGAÇÃO (topo)
+  ========================= -->
+  <nav>
+    <span class="nav-logo">Nathan.dev</span>
+    <ul class="nav-links">
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#experiencia">Formação</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- ========================
+       SEÇÃO PRINCIPAL (hero)
+  ========================= -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-tag">Disponível para estágio</div>
+
+      <h1>Olá, sou <span class="highlight">Nathan Proença</span><br>de Luna</h1>
+
+      <p>Desenvolvedor Full Stack em formação, apaixonado por construir sistemas robustos e APIs eficientes. Buscando minha primeira oportunidade na área de TI.</p>
+
+      <div class="hero-btns">
+        <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+        <a href="#contato" class="btn btn-outline">Entrar em Contato</a>
+      </div>
+    </div>
+
+    <!-- Indicador de rolagem no canto inferior -->
+    <div class="scroll-hint">
+      <span></span>role para explorar
+    </div>
+  </section>
+
+  <!-- ========================
+       SEÇÃO: HABILIDADES
+  ========================= -->
+  <section id="habilidades">
+    <div class="reveal">
+      <p class="section-label">// habilidades</p>
+      <h2 class="section-title">Tecnologias & Ferramentas</h2>
+      <p class="section-sub">qualificações e competências que utilizo para desenvolver minhas soluções, bancos de dados e aplicações desktop.</p>
+    </div>
+
+    <div class="skills-grid reveal-stagger">
+
+      <div class="skill-card">
+        <div class="skill-icon">⚙️</div>
+        <h3>Back-End</h3>
+        <p>Desenvolvimento de APIs REST e lógica de negócios server-side.</p>
+        <div class="skill-tags">
+          <span class="tag">C#</span>
+          <span class="tag">Java</span>
+          <span class="tag">.NET</span>
+          <span class="tag">Node.js</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🗄️</div>
+        <h3>Banco de Dados</h3>
+        <p>Modelagem e consultas em bancos relacionais.</p>
+        <div class="skill-tags">
+          <span class="tag">SQL</span>
+          <span class="tag">MySQL</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🌐</div>
+        <h3>Front-End</h3>
+        <p>Construção de interfaces web semânticas e estilizadas.</p>
+        <div class="skill-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🔗</div>
+        <h3>APIs & Integração</h3>
+        <p>Consumo e criação de APIs RESTful com boas práticas.</p>
+        <div class="skill-tags">
+          <span class="tag">REST</span>
+          <span class="tag">JSON</span>
+          <span class="tag">Postman</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🛠️</div>
+        <h3>Ferramentas</h3>
+        <p>Versionamento de código e colaboração em equipe.</p>
+        <div class="skill-tags">
+          <span class="tag">Git</span>
+          <span class="tag">GitHub</span>
+          <span class="tag">VS Code</span>
+          <span class="tag">intellij</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================
+       SEÇÃO: PROJETOS
+  ========================= -->
+  <section id="projetos">
+    <div class="reveal">
+      <p class="section-label">// projetos</p>
+      <h2 class="section-title">Trabalhos Desenvolvidos</h2>
+      <p class="section-sub">Projetos que construí para praticar e demonstrar minhas habilidades técnicas.</p>
+    </div>
+
+    <div class="projects-grid reveal-stagger">
+
+      <div class="project-card">
+        <span class="project-status status-dev">Em desenvolvimento</span>
+        <h3>API de filmes</h3>
+        <p>explo de operação CRUD API desenvolvida em JavaScript com Node.js, gerenciamento de "filmes" incluindo inserir, remover, atualizar e excluir Filmes, utilizando MySQL como banco de dados.</p>
+        <div class="skill-tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag">NODE.JS</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">SQL</span>
+        </div>
+        <a href="https://github.com/NathanLuna15/filmes-beck-e-banco" class="project-link">Ver no GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <span class="project-status status-done">Concluído</span>
+        <h3>Sistema de Gerenciamento Escolar</h3>
+        <p>Aplicação desktop em Java para controle de alunos, notas e turmas. Integra banco de dados MySQL para persistência dos dados e relatórios simples.</p>
+        <div class="skill-tags">
+          <span class="tag">Java</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">JDBC</span>
+        </div>
+        <a href="#" class="project-link">Ver no GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <span class="project-status status-dev">Em desenvolvimento</span>
+        <h3>Portfólio Profissional</h3>
+        <p>Este próprio portfólio — desenvolvido com HTML, CSS e JavaScript puros, hospedado no GitHub Pages.</p>
+        <div class="skill-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">GitHub Pages</span>
+        </div>
+        <a href="https://github.com/NathanLuna15/Portfolio-" class="project-link">Ver código →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================
+       SEÇÃO: FORMAÇÃO
+  ========================= -->
+  <section id="experiencia">
+    <div class="reveal">
+      <p class="section-label">// formação</p>
+      <h2 class="section-title">Experiência & Formação</h2>
+      <p class="section-sub">Minha trajetória acadêmica e de aprendizado contínuo.</p>
+    </div>
+
+    <div class="timeline reveal">
+
+      <div class="timeline-item">
+        <p class="timeline-date">2025 — atual</p>
+        <h3>Análise e Desenvolvimento de Sistemas</h3>
+        <p class="inst">📍 Curso — em andamento</p>
+        <p>Curso técnico do SENAI com foco em desenvolvimento de software, banco de dados e metodologias ágeis.</p>
+      </div>
+
+      <div class="timeline-item">
+        <p class="timeline-date">2025</p>
+        <h3>Curso de Java e Orientação a Objetos</h3>
+        <p class="inst">📍 Curso online Udemy</p>
+        <p>Fundamentos do java, tipos de dados, coleções, tratamento de exceções e integração com banco de dados via JDBC.</p>
+      </div>
+
+
+      <div class="timeline-item">
+        <p class="timeline-date">2025</p>
+        <h3>Introdução ao C# e .NET</h3>
+        <p class="inst">📍 Microsoft Learn / DIO</p>
+        <p>Fundamentos do C#, tipos de dados, estruturas de controle e introdução ao .NET.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================
+       SEÇÃO: CONTATO
+  ========================= -->
+  <section id="contato">
+    <div class="contact-wrap">
+
+      <!-- Lado esquerdo: informações e links -->
+      <div class="contact-info">
+        <div class="reveal">
+          <p class="section-label">// contato</p>
+          <h2 class="section-title">Vamos Conversar?</h2>
+          <p>Estou em busca da minha primeira oportunidade de estágio. Se tiver uma vaga ou quiser trocar uma ideia, entre em contato!</p>
+        </div>
+
+        <div class="contact-links reveal-stagger">
+          <a href="https://wa.me/5511973946439?text=Olá,%20vi%20seu%20perfil%20e%20gostaria%20de%20conversar" target="_blank" class="contact-link">
+            <div class="icon">📞</div>
+            <div>
+              <div class="link-text">whatsapp</div>
+              <div class="link-sub">clique aqui e me chame no whatsapp!!!! 📞😊👌</div>
+            </div>
+          </a>
+          
+          <a href="mailto:nathanluna2701@gmail.com?subject=Oportunidade%20de%20Emprego&body=Olá%20Nathan,%20vi%20seu%20perfil..." class="contact-link">
+            <div class="icon">✉️</div>
+            <div>
+              <div class="link-text">E-mail</div>
+              <div class="link-sub">clique aqui para enviar um e-mail para nathanluna2701@gmail.com</div>
+            </div>
+          </a>
+
+             <a href="https://github.com/NathanLuna15" target="_blank" class="contact-link">
+            <div class="icon">🐙</div>
+            <div>
+              <div class="link-text">GitHub</div>
+              <div class="link-sub">clique aqui para ver projetos e o que eu estou aprendendo no meu perfil do GitHub</div>
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/nathan-proen%C3%A7a-de-luna-bb714a325/?skipRedirect=true" target="_blank" class="contact-link">
+            <div class="icon">💼</div>
+            <div>
+              <div class="link-text">LinkedIn</div>
+              <div class="link-sub">clique aqui para ver meu LinkedIn</div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+  </section>
+
+  <!-- ========================
+       RODAPÉ
+  ========================= -->
+  <footer>
+    <p>© 2026 <a href="#">Nathan Proença de Luna</a></p>
+    <p>Versão 1.0 — disponível no <a href="#">GitHub Pages</a></p>
+  </footer>
+
+  <!-- JavaScript separado em arquivo próprio -->
+  
+
+</body>
+</html>
